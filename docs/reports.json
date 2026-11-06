@@ -1,0 +1,436 @@
+{
+ "2026-10-03": [
+  {
+   "c": "Guayaquil",
+   "d": "Alerta por tormentas nocturnas con riesgo de inundaciones en Guayaquil.",
+   "k": "Alerta",
+   "m": "Expreso",
+   "t": "Tormentas eléctricas",
+   "u": "https://www.expreso.ec/guayaquil/guayaquil-lluvias-sabado-3-octubre-inamhi-tormentas-inundaciones-297989.html"
+  }
+ ],
+ "2026-10-30": [
+  {
+   "c": "Nacional",
+   "d": "Lluvias, tormentas y alta radiación UV en varias regiones del país.",
+   "k": "Pronóstico",
+   "m": "Extra",
+   "t": "Radiación UV",
+   "u": "https://www.extra.ec/noticia/ecuador/pronostico-inamhi-alerta-sobre-lluvias-alta-radiacion-uv-viernes-166586.html"
+  }
+ ],
+ "2026-11-03": [
+  {
+   "c": "Quevedo, Babahoyo, Balzar, Guayaquil",
+   "d": "Fuertes lluvias y tormentas eléctricas en cantones de Los Ríos; Guayaquil con lluvias de normales a moderadas.",
+   "k": "Pronóstico",
+   "m": "Extra",
+   "t": "Lluvias",
+   "u": "https://www.extra.ec/noticia/ecuador/fuertes-lluvias-tormentas-electricas-martes-3-noviembre-ecuador-pronostico-inamhi-166858.html"
+  },
+  {
+   "c": "Esmeraldas, Santo Domingo, Guayas, Santa Elena, Los Ríos, El Oro",
+   "d": "Advertencia Meteorológica N.º 86, vigente del 4 al 7 de noviembre (10:00). Riesgo de desbordamiento de cuerpos de agua.",
+   "k": "Advertencia",
+   "m": "TC Televisión",
+   "t": "Lluvias y tormentas eléctricas",
+   "u": "https://tctelevision.com/lo-ultimo/noticias/inamhi-lluvias-tormentas-ecuador-noviembre-2026"
+  },
+  {
+   "m": "Primicias",
+   "c": "Nacional",
+   "t": "Otro",
+   "k": "Pronóstico",
+   "d": "Así estará el clima en Ecuador este 4 de noviembre, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWpHT01YdThkTUR3TkFyM25aMVJYekRyQVgyTWlpWXBNMVFRNDEtTkc4dkgyWTlwUE1vTE9NOHlSSUpPVmNwb0Q2Qjg4eHpaaktSX0dFUFZCdU9ZYmt0QWUwNkR1YWxKclY3b2puVXJGVmZDM2pYdVQ2VlJXQmJOWGNqakh2N2ZFSVhVLU16RXYwV2V1S3RyekNQZDNGZw?oc=5"
+  },
+  {
+   "m": "Studiofutbol",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Pronóstico",
+   "d": "Inamhi prevé lluvias intensas y tormentas eléctricas en varias provincias del 4 al 7 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWEZEcmlxOUJ1VHk3S0E0ZnJTeXd3NW1RRVZqdTBqc1RCY194Y1piVXM3OEl3aXJnUFQ3R2pfU1NQZmVjRlNrYmJZak5iVGtUOGpmckJLYmxoSmU4ajZaT213clRWNmtBX1NtMk1BVlduU0V1Sm5RWVkxbHZ3WENLUk0tYng2b0xzZk9DYjdOaHE2d2t1WDNFMXdjMHVvVXliRmVCeWpRWXBCdWZuV3BxNmhQV2poR2VkQlhTazFTdkVGU3Bqd2ZlWjJPWk1vbENCMVVj?oc=5"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Guayaquil",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Advertencia",
+   "d": "Guayaquil seguirá bajo advertencia por fuertes lluvias y tormentas hasta el 7 de noviembre: esto dice el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUmcwcVhaMkMzcHIyWEFmMklocGctUXFxOEdxSnZQTFAtNTI5Ry1uMjNmNkJkcjFGdWVHbkFobnZoUDFSM3M2T2dYOUQ4MUhzQ19NNmt3NG51Q3BoMjRxdmN2UU9LTzctOFVjMW9rMGV3bFNoVXdHR2wyYzc2bTVlNHhaYXJLd2VGTmo2REwtLVAzMmtxRTV4ZlBxWlFlV3U0dEYxRU05MGs1N3pCTlkwTzZTNDFOQ21MOW1PS25pSUlYUVVicjJhcnpsM1NNb1p1TTctMWdOUVFQTHpMMWxzMkhkdEkzVVdUdjJVQXd0TldoaFhlTHc?oc=5"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Galápagos",
+   "t": "Inundaciones y crecidas, Lluvias",
+   "k": "Pronóstico",
+   "d": "¿Seguirán las lluvias en Galápagos hasta el 7 de noviembre? Inamhi actualiza el pronóstico tras las inundaciones",
+   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZm01MW43VjFkMDRBYVV1cTl0Tlo2OXp0em9aOEJrbWV5OUdiNWE2aE5Cejc0VDJtbXN2eTUtT2ZjbGJ5Y3E4Vk1CZWtmQldPVnRtOXR3UlN2a0F2d011bExZZWlRaGhrS1luSzdiOVJtWjZqbEw1U1NGNTA5ME0ydGpHdDRjVU1oRW5oT3pYazNzMGRlYUdHZXBBUWxDSnJwcXJGZDA5OTZ2VEdGaEozTVFOb3NfVXJ6MU81LTV5VEtSN19xVk9MQUpod0xqTnhKVk9IdUZVeGotemNvR282dVV6QkpjeGF2T3JjNXlrbHpsUThoZFE?oc=5"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Quito",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias y tormentas hasta el 7 de noviembre en Quito según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzFkcmRsYmFIR0x1VWs1WUU5aXBhM0x1cF83b05fNC1MOThMUmJhWFB0Tm53WEx6Y0NiTTU0dWZySkViWlhid2RJS2FDdGZyVnhqLXdSUUhYeWlBQ19qek9fZGZoSUtucWU0cVYteDFVX0ptVWtwN2pvOHlUcHJPN25tWlBjdHh4Y3FVeFZod2RHdjFDa3FWYXpwV3cyamVhTHNHbWJpNFZTVXRQeUxQVzgyNWZqS2x1Q3Jxc0tB?oc=5"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias y tormentas hasta el 7 de noviembre en Quitom según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSFVKdTBwWHVmUWxZOHFWT2QyZDNCN0J4bEZjMkxlOEJyUXQ4QktnVVBHa1VaVzdsbGMya0JPdzEwcUt4eGVsWjVDczZuQmQ1bGMzUzVNSnJWVTEyWFFhaTJoZmEtT2ZFdkFocUxyUDN3THBSUVB1ODBqdVhHLUtVelpET3A2UVhlbHNFMGk4bmt4eC1JaGcxVGdCd3hJX01JTnBqNU83dmZ5cFdzMkxaV0VEeWtwYlBBaDhuelM4SQ?oc=5"
+  },
+  {
+   "m": "Teleamazonas",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Alerta",
+   "d": "Inamhi emite alerta por fuertes lluvias y tormentas eléctricas desde el 4 hasta el 7 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWHI4ZjFScVpaUHl2UF95Q2o3dTBlOEJ5NGNBSU9JbkNzanAtb29CdEVSTXlxTm9PNEVOVk1FWjJjSVN5ZVdtczVPUEpDZlBlMEFmbC1Vd3cwYnJ3cWtrRlpJdzl4Mk5HU2FLT2tRMTVheUhvV2dSZm5fa3BRb3F5V1g5d09VZjZjZnp6cWNTaVpmRUdiZU9kY2FUT2FXTFBpdUZLU0d0VjlVS1ljM0RWam53?oc=5"
+  }
+ ],
+ "2026-11-04": [
+  {
+   "c": "Guayaquil y otros cantones de la Costa",
+   "d": "Nueva advertencia de tormenta con lluvias fuertes, vientos y relámpagos desde las 19:00 del miércoles 4 de noviembre.",
+   "k": "Alerta",
+   "m": "Ecuavisa",
+   "t": "Tormentas",
+   "u": "https://www.ecuavisa.com/tema/inamhi-t94270"
+  },
+  {
+   "c": "Santo Domingo, Guayaquil, Santa Rosa; Costa, Sierra, Amazonía, Galápagos",
+   "d": "Tormentas en Santo Domingo, Guayaquil y Santa Rosa, y lluvias por la tarde en las cuatro regiones del país.",
+   "k": "Pronóstico",
+   "m": "El Diario",
+   "t": "Lluvias y tormentas",
+   "u": "https://www.eldiario.ec/ecuador/estas-ciudades-de-ecuador-tendran-lluvias-y-tormentas-este-miercoles-4-de-noviembre-04112026"
+  },
+  {
+   "c": "El Oro, Esmeraldas, Guayas, Los Ríos, Manabí, Santa Elena, Santo Domingo; Sierra (Bolívar, Cañar, Cotopaxi, Loja, Pichincha)",
+   "d": "Fuertes lluvias en la tarde en gran parte de la Costa, tormentas con vientos en Santo Domingo, precipitaciones intensas en cinco provincias de la Sierra y lloviznas en Galápagos.",
+   "k": "Pronóstico",
+   "m": "Primicias",
+   "t": "Lluvias fuertes y tormentas",
+   "u": "https://www.primicias.ec/sociedad/clima-ecuador-inamhi-lluvias-fenomeno-nino-inundaciones-136318/"
+  },
+  {
+   "c": "Esmeraldas (Eloy Alfaro, Quinindé, San Lorenzo, Atacames, Muisne), Carchi, Orellana",
+   "d": "Pronóstico de lluvias por cantón con el período de mayor probabilidad; en Esmeraldas, lluvias al final de la tarde.",
+   "k": "Pronóstico",
+   "m": "El Comercio",
+   "t": "Lluvias",
+   "u": "https://www.elcomercio.com/actualidad/ecuador/lluvias-fuertes-y-lloviznas-asi-estara-clima-ecuador-miercoles-4-de-noviembre/"
+  },
+  {
+   "c": "Costa, Sierra (Pichincha, Cotopaxi, Bolívar, Cañar, Loja), Amazonía, Galápagos",
+   "d": "Lluvias fuertes en cantones de Guayas, Los Ríos y Manabí; lluvias moderadas en la Amazonía; lloviznas en Galápagos.",
+   "k": "Pronóstico",
+   "m": "Teleamazonas",
+   "t": "Lluvias fuertes",
+   "u": "https://www.teleamazonas.com/actualidad/noticias/ecuador/seran-cantones-lluvias-fuertes-ecuador-4-noviembre-132035/"
+  },
+  {
+   "c": "Los Ríos (Quevedo, Babahoyo, Valencia, Vinces y otros), Guayas, El Oro, Santo Domingo",
+   "d": "Lluvias fuertes al final de la tarde en la mayoría de cantones de Los Ríos; tormentas eléctricas en Santo Domingo.",
+   "k": "Pronóstico",
+   "m": "ALDIA",
+   "t": "Lluvias intensas",
+   "u": "https://www.aldia.com.ec/inamhi-preve-intensas-precipitaciones-para-este-4-de-noviembre-en-la-costa-y-los-rios/"
+  },
+  {
+   "c": "Quito, Pichincha (Puerto Quito)",
+   "d": "Quito en alerta amarilla con ligeras lloviznas; lluvias fuertes en Puerto Quito. La Costa mantiene tormentas e intensas lluvias hasta el 7 de noviembre.",
+   "k": "Pronóstico",
+   "m": "El Universo",
+   "t": "Lluvias",
+   "u": "https://www.eluniverso.com/comunidad/quito/quito-ecuador-clima-lluvias-inamhi-miercoles-4-de-noviembre-nota/"
+  },
+  {
+   "c": "Esmeraldas, Santo Domingo, Guayas, Santa Elena, El Oro; Pichincha",
+   "d": "Del 4 al 7 de noviembre: alertas grises (tormentas), rojas (lluvias fuertes) y naranjas en la Costa; Pichincha en alerta naranja.",
+   "k": "Advertencia",
+   "m": "El Universo",
+   "t": "Lluvias intensas y tormentas eléctricas",
+   "u": "https://www.eluniverso.com/comunidad/quito/quito-ecuador-lluvias-clima-nacional-como-estara-el-clima-en-quito-y-a-nivel-nacional-como-estara-quito-en-clima-habra-inundaciones-en-quito-o-guayas-nota/"
+  },
+  {
+   "c": "Litoral: norte de Esmeraldas, Santo Domingo, Los Ríos, Guayas, Manabí, Santa Elena, El Oro",
+   "d": "Advertencia del 4 al 7 de noviembre por lluvias fuertes, tormentas, ráfagas de viento y posibles crecidas.",
+   "k": "Advertencia",
+   "m": "Metro Ecuador",
+   "t": "Lluvias y crecidas de ríos",
+   "u": "https://www.metroecuador.com.ec/noticias/2026/11/03/lluvias-en-ecuador-estas-son-las-zonas-bajo-advertencia-hasta-el-7-de-noviembre/"
+  },
+  {
+   "c": "Costa: Esmeraldas, Santo Domingo, Manabí, Los Ríos, Guayas, El Oro",
+   "d": "Nuevos eventos de lluvia fuerte y muy fuerte con tormentas dispersas en el Litoral del 4 al 7 de noviembre.",
+   "k": "Advertencia",
+   "m": "El Telégrafo",
+   "t": "Lluvias y tormentas eléctricas",
+   "u": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/lluvias-ecuador-provincias-alerta-4-7-noviembre"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Galápagos, Costa, Sierra, Amazonía",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias en Ecuador este jueves 5 de noviembre: pronóstico del INAMHI para Costa, Sierra, Amazonía y Galápagos",
+   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbmg5YWVDZWo4OWo1VERMYzNtUFdHU3VobC1CUTlyeFFCMXZqd25oOGFnN0dfQnYyZzJMV05mTUxjYTFTcUdTX1cwZFBsTFF5WWZMMjdWbHBCVVRtUGliSzBmRlBvM2loYkRrXzNkYmxad1RmUXlhS3JMOVBidTc0a2ZCYXlSYlVwQVRkemZBaGhmNU92TEU4bGotWDVxa1lkeDFDWjVoRzEwdzI0R01fam5zS1ZUb2EwMUVnS3lZdWpUdmhyWk5sa0NyMU1lczV1RTAwanpzaDVuWG5nNXgxcTRfRW9mYXU1aHA2Y2ZxeHk?oc=5"
+  },
+  {
+   "m": "Teleamazonas",
+   "c": "Nacional",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Inamhi prevé lluvias fuertes y lloviznas en varias provincias de Ecuador este 5 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMS12STRWcDNpSUFXVDNaRVV3MklaWEJ0Y05pZ2U3a002ZnY5el82M2diQnY0X290WDBKVGwtcW40d1BReFVmZ3cyaU9MOWpUZ2VpN2lLSG1IU3FZeXotNURGU0YwdERUVWhTcTNHcjhZTl9ZN2dCVzdTaDZUMHRNUFVTckFmRDA4Uk1jUml2TjNxeTFESUVqaTJ5bzRsMHFwZHJQRHFzX1FtQ0w2b3dEYnl0Ymg5Sk4yeEd3c0t4bjN5Rng2QVcycDdOVG9uaHc?oc=5"
+  },
+  {
+   "m": "El Universo",
+   "c": "Nacional",
+   "t": "Otro",
+   "k": "Pronóstico",
+   "d": "¿Dónde lloverá más fuerte en Ecuador este jueves 5 de noviembre? Esto prevé el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUDNrMngxRkg5b0JiY2NCZjFERlF6a0dJNWZOeHZCbmlJNngzZ1VoUHFKUmpPN3R4RWhjTkdTT0lkUVV0X1Bvamp0SGdPUHFxSFFaU096NzR0QkVGTHRac2hsTW9qenV0V3lOUXVnVWI2b3FPVkZwMmRQelZzZDhqcm1pY200SlFKM0lBQkNhZlBLSzlBeTVsRE1TNHZaVFJLQy1wYXZzSjdSX1N2OGtzZWdhdjB2VG5sTjlDYloxQ2U1Y19PSmFER1pjb2ZiSHkwZUpEa1BzXzg0UWhDalAzMmZ4WdIB4wFBVV95cUxQUDNrMngxRkg5b0JiY2NCZjFERlF6a0dJNWZOeHZCbmlJNngzZ1VoUHFKUmpPN3R4RWhjTkdTT0lkUVV0X1Bvamp0SGdPUHFxSFFaU096NzR0QkVGTHRac2hsTW9qenV0V3lOUXVnVWI2b3FPVkZwMmRQelZzZDhqcm1pY200SlFKM0lBQkNhZlBLSzlBeTVsRE1TNHZaVFJLQy1wYXZzSjdSX1N2OGtzZWdhdjB2VG5sTjlDYloxQ2U1Y19PSmFER1pjb2ZiSHkwZUpEa1BzXzg0UWhDalAzMmZ4WQ?oc=5"
+  },
+  {
+   "m": "El Universo",
+   "c": "Quito",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Ligeras lloviznas se esperan en Quito este miércoles, 4 de noviembre, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeWJKQ3ZDeV9SdGdHQmhYR1ZaZWFJMy1GRzg2c0Qtc1cxMllsUDBSMXVNWlpOa3ktRGRUdjdxTUk4dWdOR1VPUUsxdHprSEZZeG5YR0lENTA3dF9HV09meW5pbV9jTVVldDBkaldhMl96TUJpdGtaUG9kdC0tOHpIV1o4TUJ4OGh6LV9oVjVJamhSMG52bkNFWHBzNlhRNHN1eUt4SW91dU92WF950gHAAUFVX3lxTFBHX1J4T1kyUkZBT1c0cWVCOGNBbUVVZE56R0tsY1EtbjdQaERyaWY1TndTQ0s4RDhkMXBwcWhaV2tIU1N2V1VScFI3TEFBaWdvbk5na0toZXd1YVhNNDJ6TTV2WFBKYmpNSU9BRExLcEszZ2xDazBaaUJTOU1NMWMyNDBwZG5tR1M3bkY3YkNncGYyeTIzV3J1MEFWOTNhZWZCRDZRX0hQckdQX2pmdFVwSEQwLTQ1a3NPZjJEbVhGZA?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Guayaquil",
+   "t": "Tormentas eléctricas",
+   "k": "Pronóstico",
+   "d": "Inamhi pinta de negro a Guayaquil y otros cantones por nuevo pronóstico de tormenta",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRkViRDBYVlNnLWc1ekJIVHpnX0FJaVYxWmswYi1LbXJjZ2p2QXNJWjNGdHRCQXg5SVhwV0VZbGhlZ29veXN6dVNKZUxRdU1pRzljU1NOLXExd1lJMktIX2RZOHg3VHZaRlU4Ym5XcG9UWkctMnl0WV9GXzhqcTRKN01PZ1BGVW5RcXp6MWVrcWhQSjkyQ0I4QUpmY3czcHNPbVBvb0NicVFIQdIBrwFBVV95cUxNREFQTDVGMUtxMG0zNEhONS04Vjd1SXNrdC1GOFh3eF8tZ2xEMU5GRFNwLU1ad0RTalFSODRBTmVYWUNILWhaRTVVOG55R0h2VFloMVBha2NZZlNtZFBYWEJpVkNmdUV3RUQzU09SeGotTFFGVTVLUXZQTDZXYVc1cTBWdWdqc3FvOXBsYmJVZnRlRDBtYXdvTXhkOUhFeE1kdlBKX1BBbVZ6TVlYTVVj?oc=5"
+  },
+  {
+   "m": "Ecuador 221",
+   "c": "Nacional",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "El INAMHI pronostica lluvias intensas hasta el sábado 7 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMGhkQUVOS3pPS3ZvcDZ6R0tLOFozdHQ3a3VvdXVvOTBBa1NfTlphMWNmdDVTWUpPMG1yYzJ0bDFJNXlLR2Q4Mk01UzRYcmYyTTBLdWZHbm9EVkNSbkVYZTNmZDgzLWljWTNXSXBLcjdZUk5jaWthd1ZkdnlXVTd3Z2lhNTNoS3FiYm9WZm92QXgxaU1laXo5NHptTQ?oc=5"
+  },
+  {
+   "m": "Primicias",
+   "c": "Nacional",
+   "t": "Otro",
+   "k": "Pronóstico",
+   "d": "Fenómeno de El Niño: ¿Qué significa el color gris en los pronósticos del clima del Inamhi?",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNekNhTzJOY05TalpBU1pwck02a2NtclVsWjI4RXBsX2pON25Za3E5bG1pMnBNVUdTZEZsbDZNT09WLXpES2F2bVBmdEJXRWFadllsUnZSTHdlemVVWUNnc3FKOUFqYWdUbXR6allQeUxwVllhYzRSNmY2SjRoUjNFZGhwT294RVhYUVQ2cXJrd0lYMHhqVldTUGtLOXNiX2FmTzRFejRJbDlKTlJB?oc=5"
+  },
+  {
+   "m": "Teleamazonas",
+   "c": "Los Ríos",
+   "t": "Lluvias",
+   "k": "Alerta",
+   "d": "Inamhi mantiene alerta por intensas lluvias en Los Ríos hasta el 7 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWUpPcHZsYWgtX2F4djl2Y0gxR01mcjF2RnVTT2xLay1ScEhfS0JOVEdPNTRZWVJ2aktuUUxxV2t6WHVhQ3NkaHRaX2FvNUVLclVpTXVnMlo2ejd4SnhVblVMRXNiY1RBYm1Fb3cyS2JDTGtTUHlsN2wxS0J3QnQ3SXp0akNfZWJXRmZZcHVldm1ZMTBIaFdrLU44czY2WUNaS3JJOVEtR3JhLVpIMi1xQjA5cEI?oc=5"
+  },
+  {
+   "m": "Diario La Hora",
+   "c": "Loja",
+   "t": "Tormentas eléctricas, Inundaciones y crecidas",
+   "k": "Alerta",
+   "d": "Alerta por lluvias en Loja: INAMHI prevé más tormentas tras deslizamientos e inundaciones en la provincia",
+   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZGRfdk5ReUpIR1doYXJwbHN5RFpOZlZodDNUbV9DcWRqOXY1RnlJdHNzRXlTbkR5aGRvNzlydTk0Uy1lMTQ1VjQ5TTJuU0J3dTFYUWlBRDVBTGhDQmRiOVgtaHBSZFBubXo2aFl3LWlUVVdaZ2dCLWMtQ2hGSVI1UEMzaVE2d29ZY0dlR0hGTU0tb0FlS1U2NG0wVEp0Vi1ScWxVU2tkWkZjVHUwTlprVmVhSFN6VTI0MDBsRXJSWTMtMERKWGR0RWRYa25kbS1CTUFhNnU5S0tpSHJOekpVdG5UWDhfcjgtMWc?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Guayaquil",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Guayaquil amanece con lluvia y el Inamhi prevé precipitaciones más fuertes para la tarde",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSVJzcTVPN2htYkwxZzF0azJoMjRwcG9YNkplOEVpY0lxTkdGdGNDMVhteXExWHFxeDBqVTdGSkR4MkNoNnU3N2RSVUhpdzU1QndUTDl0UVlPVU9HanpneDh5YW5uN0xvV2ExYUFsSndWT25xYXBZdnVlR2M3Zmg2elBzZFNndTN3Z2p0czFySHBwNFV3XzBzeG1walBKYksyY0HSAacBQVVfeXFMTkhiSlphS3ZXZktSRTBCUXJ1RGJFV1hfcXJudXJBbHd4Y0Q3UUQ5SlRyWGpEUjJBZDdENjlYZDRCMXJkSjFGMnhEcDdQMjAzVXZpalNNY1FWZE1QSmlUUGIzaUFkalZweVBPUWREZkhUemFXaDFCSTVWM3diTTRjWEhlTF9kLTFqYXpHTVRJd1JqcmU2ZU8wX1JzYjgtbUpzdS1QUXZGOE0?oc=5"
+  },
+  {
+   "m": "lodelmomentoloj",
+   "c": "Nacional",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "INAMHI pronostica lluvias de fuerte intensidad en varias provincias de Ecuador.",
+   "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MRmFHYnFVZjE1Z3Q3NGxySnlqRjNoRWFHejdQSW5vcTgzby1XeUFMTDQxVG92V09BS2g4MHp0eXlwU081cjIxNi0td1BQQ1p4Nl9V?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas",
+   "k": "Pronóstico",
+   "d": "Clima en Ecuador este 4 de noviembre: Inamhi prevé tormentas en tres ciudades",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ210UjBVNVlVYTJWVi0zZ3A4TkJRZkNCeEhmSldrT284M2swb2wzUlV6Zkp4Y1BNRThMRVFwMUN5OWhzcUxZa1pvWVY3UGJibldQWFAxajNpZ2RyTWxsZVRxTy1pNVU1Ti00SkhocEVLU0RUMy1jdllSYmFKblFhdWxPYWxrbFMxdG15aXBWM2g1Nk9nYUxCelBIWjRoVnphMnc4M2hOMTZDbjFQclhZdFFfcXdsVXZlV3JV0gHAAUFVX3lxTE5CRmMxNmRBdFZTazdEbk10VDN0UzFJVTVGQVk4SFp1dEdWU3lYWWxaQURmVEMzdTNDeUlYSWpiclQ5N1A3UXBfY29SR29MZjZmQnVXRDZ4bWdaaG9yNGg3SWVyaVFUSVBNVEtCblVUUDEtcWFwS3lFRllGSUhzeDlsdzBZcHY1Unk2b0t1MlFBRlBSZlhsVG5mY1NoNVNxU2VxTF9FcXBDQngxR2U3WEFrejlDZ1dyMVhpVjNoOGV0dA?oc=5"
+  },
+  {
+   "m": "www.aldia.com.ec",
+   "c": "Los Ríos, Costa",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Inamhi prevé intensas precipitaciones para este 4 de noviembre en la Costa y Los Ríos",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnJHNlplWUFrOFNGX2FiakdydVBtM2FteHhETklnQjk0Y3UtcExReGxjWDd1N3FnSUxjRFZPbVVjdHczOWZsQ3k5MHl6R09JcnRjUTNOSmJMUjRiZ1BqemRGMU9Obk5PSU5OUG03NldzSjRhWDNpNV9nM3FUZ1lTVFJfR3NpbXFabWdidHo5bENuYm45amRuUHNQNHhtRGpUYzFoZmN4WkIzTVF0VkMzTQ?oc=5"
+  },
+  {
+   "m": "Metro Ecuador",
+   "c": "Quito",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Fuerte lluvia en el sur de Quito provoca acumulación de agua: esto dice el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdVdOeGZVQmpBM0EweTM4bTQzbUl2RnRMa0VWSFJWNXF0OWNXamVIS2s3LVp3MU5ySVR5UzUxQTNna1VIbV9nN1FGSm5jaEoyNklEdXVMU0ozeUJsVTFYckMxZWN4Y0dVc3p5Y3o4U3VxaFExVnhtaGFhQzNqZjBybnhLNEZJUmRQdXRtUzlPOEdXX0NYMzY0UTUxOFdNNzdPMVdQNVZpMWUtbzI2SENBT1BoSnhPb3U2T0tGaHZkUDloalJGc2p0OWJSU0dlUQ?oc=5"
+  },
+  {
+   "m": "El Mercurio",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias y tormentas se mantendrán en gran parte del Ecuador, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeC1RUWZheG5oWUtSUnFXc3JpWG1kMWpBbk1NeG5xMXdkNzdVSnhDVEUwNmp5VlpLTURIZzdxemkwZDlvakJGQ1hSRTR2RjVrM1MzSnJGU3pxY1BOVkVQYl9Zc0U1aEpIbVh5TzM5cmMwTWJzekg1V1ZZX3JxQl84aDk1OXgtaEhv?oc=5"
+  },
+  {
+   "m": "www.eldiario.ec",
+   "c": "Santo Domingo",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Advertencia",
+   "d": "Santo Domingo tendrá cuatro días de lluvias y tormentas: conozca qué advierte el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTUYzbnVCenJObWFjSWdsWkE0cWpCa1BCMEFSeUtLMTYtQ3VvZENHanNiOGdMMWFiX3BFcTZaVlJGbHpId1J6bGw4SkFyOHNFZFp2WG5JNDMxLUhINDl0a3hjRVd2Q2NTMXlPV0xUWWowSDhOTXlwMVRHZ2FMQVpCd3UxalE3YjVjTkJrWXNyNWxVemlPN2tyR0lscjVYaDJUSzdlZ3h6TmF2aHJrMk9EVzRqdV83UENfVFBHN3R2RkZyNzRjRjhJ?oc=5"
+  },
+  {
+   "m": "El Diario Ecuador",
+   "c": "Santo Domingo",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Advertencia",
+   "d": "Santo Domingo tendrá cuatro días de lluvias y tormentas: conozca qué advierte el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONXg4U2lOOGxmU3JZQzNmVnFPNDNnZU53OWJxdDl4eTlTWF9seXN5SVFSRW5yTVowd052eTdMWFdYMTlqTEtxZ3RHWUpoMHh2Sm94OE9sOWkyeDFkNXFXRFlZdWotcFJkTmNnWklPZ0xzaGhIdVRzVm9ZNktsRTZzS3l1a3FaSGxLWno2cGxhalJTRTRIUHpwbWRYeGt6Zk8wWUFFZnFidWVwWkdZQW9XWGpmYjljUXQxak5kMHVyR3JyeWZFMVJlWGlSWDRMMzVDU3c?oc=5"
+  },
+  {
+   "m": "ElOriente.com",
+   "c": "Nacional",
+   "t": "Tormentas eléctricas, Lluvias",
+   "k": "Advertencia",
+   "d": "Inamhi advierte lluvias intensas y tormentas eléctricas en Ecuador hasta el 7 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaWUwZVBDcXNUMVVQVnVOQ0RyNXNjbmxxMDNRNTB0Zy0zQlRzX3lPdF9vSldpTS1CSFoxTWliMkdDQTZmelJyUXFBbVFkclV3NnpsTlFXT0lFYW9xd2tLSHE2RFZXZEF3X1RtTmdBWFpMTDFxSkl1OFRXNHM2cHZ0NTRsZ3ZLZTEtMGlyLVlDaEc5SzVKZFl5aW5nTnZsVGZBXzk0WmZCUl9jek52Y0RBTTA4Szc4ZzU4VGNrb1BaY2gxTF9YWWJ1V2sxTQ?oc=5"
+  }
+ ],
+ "2026-11-05": [
+  {
+   "c": "Guayaquil, Durán, Samborondón, Milagro, Babahoyo, San Lorenzo",
+   "d": "Tormenta con lluvias fuertes, ráfagas de viento y descargas eléctricas en Guayaquil, Durán y otras localidades de la Costa entre la noche del 4 y la madrugada del 5 de noviembre.",
+   "k": "Alerta",
+   "m": "Radio Centro",
+   "t": "Tormentas",
+   "u": "https://radiocentro.com.ec/nueva-alerta-del-inamhi-pinta-de-negro-a-guayaquil"
+  },
+  {
+   "c": "Esmeraldas, Santo Domingo, Guayas, Santa Elena, Los Ríos, El Oro",
+   "d": "Advertencia Meteorológica N.º 86, vigente desde las 10:00 del 4 de noviembre hasta las 10:00 del 7 de noviembre. Riesgo de desbordamiento de cuerpos de agua.",
+   "k": "Advertencia",
+   "m": "TC Televisión",
+   "t": "Lluvias y tormentas eléctricas",
+   "u": "https://tctelevision.com/lo-ultimo/noticias/inamhi-lluvias-tormentas-ecuador-noviembre-2026"
+  },
+  {
+   "c": "Costa y Sierra; Galápagos",
+   "d": "Alerta gris (tormenta fuerte con vientos, rayos y truenos) en sectores de Sierra y Costa. Galápagos con llovizna.",
+   "k": "Alerta",
+   "m": "Primicias",
+   "t": "Tormentas, lluvias",
+   "u": "https://www.primicias.ec/sociedad/clima-ecuador-lluvias-inundaciones-inamhi-fenomeno-elnino-5noviembre-136336/"
+  },
+  {
+   "c": "Costa (7 provincias), Sierra, Amazonía, Galápagos",
+   "d": "Lluvias dispersas y tormentas en Costa, Sierra y Amazonía; radiación UV alta y muy alta.",
+   "k": "Pronóstico",
+   "m": "El Diario",
+   "t": "Lluvias, tormentas, radiación UV",
+   "u": "https://www.eldiario.ec/ecuador/llovera-este-5-de-noviembre-estas-ciudades-tendran-tormentas-05112026/"
+  },
+  {
+   "c": "Santa Elena, San Lorenzo, Sierra; Amazonía",
+   "d": "Lluvias fuertes en Santa Elena, Esmeraldas y cinco provincias de la Sierra; lluvias normales a moderadas por la tarde en la Amazonía.",
+   "k": "Pronóstico",
+   "m": "Confirmado",
+   "t": "Lluvias fuertes",
+   "u": "https://confirmado.net/lluvias-fuertes-en-ecuador-este-jueves-5-de-noviembre-estas-son-las-provincias-con-mayor-probabilidad-de-precipitacione/"
+  },
+  {
+   "c": "El Oro, Pichincha, Quito, Morona Santiago",
+   "d": "Noche del 5 y madrugada del 6: lluvias fuertes en Huaquillas, Machala, Pasaje, Piñas y Santa Rosa; lloviznas en Quito.",
+   "k": "Aviso corto plazo",
+   "m": "El Comercio",
+   "t": "Lluvias nocturnas",
+   "u": "https://www.elcomercio.com/actualidad/ecuador/estos-cantones-tendran-precipitaciones-5-6-noviembre/"
+  },
+  {
+   "c": "Guayaquil, Santo Domingo",
+   "d": "Tormentas previstas en Guayaquil y Santo Domingo; advertencia activa hasta el 7 de noviembre.",
+   "k": "Pronóstico",
+   "m": "Ecuavisa",
+   "t": "Tormentas",
+   "u": "https://www.ecuavisa.com/tema/inamhi-t94270"
+  },
+  {
+   "m": "Primicias",
+   "c": "Nacional",
+   "t": "Otro",
+   "k": "Aviso corto plazo",
+   "d": "Fenómeno de El Niño | Así estará el clima hasta la madrugada del viernes 6 de noviembre en Ecuador, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjk2VkExZmJ1VXkyOEo5RXFjVnA3MkdQQVFlOUZqenRSXzhhT2VvUENRX1lZLWpROFhkTXR5cjlOdFNlbXlKbEY5TEtrWWVmT3V3bXYyRUFqNVpwMXhMUlM3d2MzS0NDZVNtS2tBMU9SS2RyTkI0Mmkyb2FpVld1UUdIT2NoMDlfLXJuZ3doYWFMZU41T2xlNDR4aW11Z0xNdDdZWnhMS1lPYU9pSUpIVzc0Zw?oc=5"
+  },
+  {
+   "m": "Vistazo",
+   "c": "Costa",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias persistirán en la tarde de este jueves 5 de noviembre en la Costa, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeExUVjV4eGJDbGxoZmNXYW9KU3pZSVVDUENnYnBCVW52cHB2eU85Z2R1LWs3WEM3UU1xTjN1MXRibEpYMGpCWUVnWmc3UFlOX1VlRFJWU0ZMdFE2XzVSTnIxUThyZWx3cXg5dWxYWkIwdVlkNlhqMXdfT0ExdnNiaENLMWpGXzNENTVGZ3g2eGNOZG94T3lXTFA3X1FqZXFyakpSRVhxbW93X1ZJRGRaRXlGXzduSUJNX0VjalJwSnpLa0UxemfSAcsBQVVfeXFMT08wcnZkZDlmbzZPNjhhNWpSWmd2eDFlZ0ZZa1JRM1N6cE9LamlaMHFMdFhVdFd6ZU1sd3NMRG0xamRNd2hOa2V4R3ZXRVVaY3JQUlg1UDlWQy1IeTB5dlZ2dHI1aGZTMDZvak1aZnRLSTg3MHJnWGpRX0hZOVRqamtOQXlpTHg5TzVwQUpfZFQxUldSNllVRjZnN2dpUXVVNS1RVFdUNW9ZSlhybWpTdmlwbEdhSXJaZHJiQWgySkhpeGV0N0lucjBMVG8?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Guayaquil, Santo Domingo",
+   "t": "Tormentas eléctricas",
+   "k": "Pronóstico",
+   "d": "Clima 5 de noviembre en Ecuador: Inamhi prevé tormentas en Guayaquil y Santo Domingo",
+   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQXRLaVg2bFhMRE9zOGIwelFFMTExLVY0TThreldyME90WF9qbXA1R3ZPdUlSUm1NOF80cmtCcW9jc2JkTUthTFdxU1JQUm9pOGp1QThiMTNiVExpOU1ZTG04QmFKVjlObEFTOXJVcTQ4M1pTRW1UTUZmdDNLMEhDLVZzMnBZSXpEbEVma3BHUXNIVGpkMGpUb3VPM3FiRnE3OTF5czEzd253YkpHV2ZjWTI5YUlyZkNmalJ3Wlg4SW1zZw?oc=5"
+  },
+  {
+   "m": "Teleamazonas",
+   "c": "Litoral",
+   "t": "Inundaciones y crecidas, Lluvias",
+   "k": "Advertencia",
+   "d": "Inamhi advierte riesgo de desbordamiento en 35 ríos del Litoral por continuidad de lluvias intensas",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlJPUEpUVV9HTkxGRDEwblR5ZlRGaEY0N1dJMEJBZ0ZNQVUxMVBPd1MycUxMUUg4MUNhVlhfODA1bk5aa2xTQ1BTX2NVNlZpb18zbkk5cmtJTWQ1VEtxZG5jV3FXR0VocjNRR2I2Y1ZPN0R1QkZ4OFFIY08ydm92ZmtoUFVPczZ3LXdlaGRrdGZ4WTBLdHJhbXNScVFHLXZHSkZMYXlpVG9DMnJjOXZ3ZnZB?oc=5"
+  },
+  {
+   "m": "ElOriente.com",
+   "c": "Nacional",
+   "t": "Lluvias",
+   "k": "Alerta",
+   "d": "Clima hoy en Ecuador: INAMHI alerta por lluvias fuertes en varias provincias de Ecuador este 5 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQd3ZOQ25YZHZzMndrUzFZaWg5QlRrUUh6LURWR0NKNU9tVEEySzFvbHUwazVTX3BUQnFNTFdIWlJuX1A5MmI4cUFuaTVhaFN6RmlCN2MyNjNBcTlTVVc1bDYzb01ieVBJSXFOWkxPY1FWVm5jVUZzbWh6MFkxNWVLdGZRd1ZxNTB1VFJ1Q0FqZTZUMnlpZ2JscnpKLXAwTml5bVRRM1dONWZIMHlXbGRwZktocF9aVlVRUllYSTVtd19ydTNjU3Fza2x3bG9Oc1pYREFpSlBkTXVrR2o3cVgwQw?oc=5"
+  },
+  {
+   "m": "Vistazo",
+   "c": "Costa",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Lluvias persistirán en la tarde de este jueves 5 de noviembre en la Costa según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdTZsUEFONjR5VHA2M2JSb3IxQkg5aFBzeW1ncDY3Yk1CcGRBeXktamVVaWtTbUtXTmIxbDVXSVdJYUUzSjloQ19LSE1MZ0ZUTG54bGFDOW9XZ0pBdjV1ZldLTDF5dFhDa1BtMVgtZjFsR3cwXy02VWw2U2NCdUVUY04tc0k1RmJPamRweXQzUTJ6ZmxtSnNaa1BsWEU0RnNmV2s2OFpnQ0N5Wmg2TWczSmhKSUxkR1BRdDlwM2Jzc0YtaFI00gHEAUFVX3lxTFB1NmxQQU42NHlUcDYzYlJvcjFCSDloUHN5bWdwNjdiTUJwZEF5eS1qZVVpa1NtS1dOYjFsNVdJV0lhRTNKOWhDX0tITUxnRlRMbnhsYUM5b1dnSkF2NXVmV0tMMXl0WENrUG0xWC1mMWxHdzBfLTZVbDZTY0J1RVRjTi1zSTVGYk9qZHB5dDNRMnpmbG1Kc1prUGxYRTRGc2ZXazY4WmdDQ3laaDZNZzNKaEpJTGRHUFF0OXAzYnNzRi1oUjQ?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Guayaquil, Santo Domingo",
+   "t": "Tormentas eléctricas",
+   "k": "Pronóstico",
+   "d": "Clima en Ecuador este 5 de noviembre: Inamhi prevé tormentas nocturnas en Guayaquil y Santo Domingo",
+   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQXRLaVg2bFhMRE9zOGIwelFFMTExLVY0TThreldyME90WF9qbXA1R3ZPdUlSUm1NOF80cmtCcW9jc2JkTUthTFdxU1JQUm9pOGp1QThiMTNiVExpOU1ZTG04QmFKVjlObEFTOXJVcTQ4M1pTRW1UTUZmdDNLMEhDLVZzMnBZSXpEbEVma3BHUXNIVGpkMGpUb3VPM3FiRnE3OTF5czEzd253YkpHV2ZjWTI5YUlyZkNmalJ3Wlg4SW1zZ9IBxwFBVV95cUxPWk9Fck9RbUxsaHl5UVJDZWYxU1FwUkZ3QXhkR2VfU21WcDFVYm9TSExROThNZEdCWTVoZ2FvdjFYWkVpTWUtWVlWa2d2dGhhWUh0QXpKb0k4YTBuN0R2ODZWSVJLREdNQ3lETG5BclNyaUY0Qkl0cE9RRXRxdEtYYndXVzAwcGNzTEExdXNmdGQ0NWhMcWVoVVhMcEowWElGWW5WM2tnNXptZUQ2SDNTT1pqS2lWckllWGExR1lOeHpSQ1dzVHpB?oc=5"
+  }
+ ]
+}

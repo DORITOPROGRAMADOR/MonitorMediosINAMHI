@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monitor de noticias INAMHI</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f5f7fa;--card:#fff;--tx:#14202e;--mut:#5d6b7a;--bd:#dbe2ea;--ac:#0b6bcb;--acx:#fff;--warn:#c2410c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0f1720;--card:#18222e;--tx:#e8eef5;--mut:#94a3b3;--bd:#2a3746;--ac:#4aa3ff;--acx:#06121f;--warn:#fb923c}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0f1720;--card:#18222e;--tx:#e8eef5;--mut:#94a3b3;--bd:#2a3746;--ac:#4aa3ff;--acx:#06121f;--warn:#fb923c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:1100px;margin:0 auto;padding:18px 14px 40px}
+h1{font-size:22px;margin:0 0 2px}
+.sub,.note{color:var(--mut)}.sub{margin:0 0 16px}.note{font-size:13px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:14px}
+label{display:block;font-size:12px;color:var(--mut);margin-bottom:3px}
+input{padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit}
+button{padding:8px 14px;border-radius:8px;border:1px solid var(--ac);background:var(--ac);color:var(--acx);font:inherit;font-weight:600;cursor:pointer}
+button.s{background:transparent;color:var(--ac)}button:disabled{opacity:.45;cursor:default}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:end}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.chip{padding:3px 10px;font-size:13px;background:transparent;color:var(--ac);border:1px solid var(--bd);font-weight:400}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:12px}
+.stat{font-size:26px;font-weight:700}.stat small{display:block;font-size:12px;font-weight:400;color:var(--mut)}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:760px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--bd);vertical-align:top;font-size:14px}
+th{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.03em}
+.tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;border:1px solid var(--bd)}
+.t-Alerta,.t-Advertencia{color:var(--warn);border-color:var(--warn)}
+a{color:var(--ac)}.msg{font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>Monitor de noticias INAMHI</h1>
+<p class="sub">Advertencias, alertas, pronósticos y avisos de corto plazo en medios, por ciudad y tema.</p>
+
+<div class="card">
+<div class="row">
+<div><label>Fecha del reporte</label><input type="date" id="fecha"></div>
+<button id="pdf" disabled>Descargar PDF</button>
+<button id="docx" class="s" disabled>Descargar Word (DOCX)</button>
+<button id="csv" class="s" disabled>CSV</button>
+<span class="msg" id="msg"></span>
+</div>
+<div class="chips" id="chips"></div>
+<p class="note" id="hint" style="margin:10px 0 0"></p>
+</div>
+
+<div class="card">
+<div class="stats" id="stats"></div>
+<div class="tw"><table><thead><tr><th>Medio</th><th>Ciudad / zona</th><th>Tema</th><th>Tipo</th><th>Detalle</th><th>Captura</th></tr></thead><tbody id="tb"></tbody></table></div>
+</div>
+<p class="note">Las noticias se recopilan automáticamente cada día desde Google Noticias. El tema, el tipo y la ciudad se clasifican por palabras clave, así que conviene revisar el enlace de cada nota.</p>
+</div>
+
+<script>
+var $=function(i){return document.getElementById(i)};
+var days={},picked=false;
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function fmt(d){var p=d.split("-"),m=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];return +p[2]+" de "+m[+p[1]-1]+" de "+p[0]}
+var t=new Date(),today=t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+$("fecha").value=today;
+function count(L,k){var o={};L.forEach(function(x){o[x[k]]=1});return Object.keys(o).length}
+function items(){return days[$("fecha").value]||[]}
+function cap(x){return x.s?'<a href="'+esc(x.s)+'" target="_blank" rel="noopener"><img src="'+esc(x.s)+'" alt="Captura de la noticia" loading="lazy" style="width:96px;border-radius:6px;border:1px solid var(--bd)"></a>':"—"}
+function render(){
+ var L=items(),d=$("fecha").value;
+ var al=L.filter(function(x){return x.k==="Alerta"||x.k==="Advertencia"}).length;
+ $("stats").innerHTML=[[L.length,"noticias"],[al,"alertas y advertencias"],[count(L,"m"),"medios"],[count(L,"c"),"zonas"]].map(function(s){return'<div class="stat">'+s[0]+"<small>"+s[1]+"</small></div>"}).join("");
+ $("tb").innerHTML=L.length?L.map(function(x){
+  var h=/^https?:\/\//.test(x.u||"")?'<a href="'+esc(x.u)+'" target="_blank" rel="noopener">'+esc(x.d)+"</a>":esc(x.d);
+  return"<tr><td>"+esc(x.m)+"</td><td>"+esc(x.c)+"</td><td>"+esc(x.t)+'</td><td><span class="tag t-'+esc((x.k||"").split(" ")[0])+'">'+esc(x.k)+"</span></td><td>"+h+"</td><td>"+cap(x)+"</td></tr>"}).join("")
+  :'<tr><td colspan="6">Aún no hay reporte cargado para el '+esc(fmt(d))+".</td></tr>";
+ ["pdf","docx","csv"].forEach(function(i){$(i).disabled=!L.length});
+ $("hint").textContent=L.length?"":"Elige otra fecha de las disponibles.";
+ var ks=Object.keys(days).sort().reverse();
+ $("chips").innerHTML=ks.length?"<span class='note'>Reportes disponibles:</span>"+ks.map(function(k){return'<button class="chip" data-d="'+k+'">'+k+"</button>"}).join(""):"";
+}
+$("fecha").addEventListener("input",function(){picked=true;render()});
+$("chips").addEventListener("click",function(e){var d=e.target.getAttribute&&e.target.getAttribute("data-d");if(d){picked=true;$("fecha").value=d;render()}});
+(async function(){
+ try{
+  var r=await fetch("reports.json?t="+Date.now());
+  var j=await r.json();
+  days=j;
+  var ks=Object.keys(days).sort();
+  if(!days[$("fecha").value]&&ks.length){$("fecha").value=ks[ks.length-1]}
+ }catch(e){$("msg").textContent="No se pudieron cargar los reportes."}
+ render();
+})();
+async function save(name,blob){
+ try{
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;
+  document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},4000);
+  $("msg").textContent="";
+ }catch(e){$("msg").textContent="No se pudo descargar el archivo."}
+}
+function rows(){return items().map(function(x){return[x.m,x.c,x.t,x.k,x.d,x.u||""]})}
+function summary(){var L=items(),o={};L.forEach(function(x){o[x.t]=(o[x.t]||0)+1});
+ return "Total: "+L.length+" noticias · "+count(L,"m")+" medios · Temas: "+Object.keys(o).map(function(k){return k+" ("+o[k]+")"}).join(", ")}
+$("pdf").onclick=function(){
+ try{
+  var d=$("fecha").value,doc=new window.jspdf.jsPDF({orientation:"landscape",unit:"pt",format:"a4"});
+  doc.setFontSize(16);doc.text("Reporte diario de noticias INAMHI",40,40);
+  doc.setFontSize(10);doc.text("Fecha: "+fmt(d),40,58);
+  doc.text(doc.splitTextToSize(summary(),760),40,74);
+  var L=items();doc.autoTable({startY:96,head:[["Medio","Ciudad / zona","Tema","Tipo","Detalle","Fuente (enlace)"]],body:rows(),styles:{fontSize:8.5,cellPadding:4,overflow:"linebreak"},headStyles:{fillColor:[11,107,203]},columnStyles:{0:{cellWidth:60},1:{cellWidth:95},2:{cellWidth:70},3:{cellWidth:55},4:{cellWidth:300},5:{cellWidth:182}},didParseCell:function(h){if(h.section==="body"&&h.column.index===5){h.cell.styles.textColor=[11,107,203];h.cell.styles.fontSize=6.5}},didDrawCell:function(h){if(h.section==="body"&&h.column.index===5){var u=L[h.row.index]&&L[h.row.index].u;if(u)doc.link(h.cell.x,h.cell.y,h.cell.width,h.cell.height,{url:u})}}});
+  save("reporte-inamhi-"+d+".pdf",doc.output("blob"));
+ }catch(e){$("msg").textContent="No se pudo generar el PDF."}
+};
+function x(s){return String(s==null?"":s).replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function p(txt,o){o=o||{};return'<w:p><w:r><w:rPr>'+(o.b?"<w:b/>":"")+'<w:sz w:val="'+(o.sz||18)+'"/></w:rPr><w:t xml:space="preserve">'+x(txt)+"</w:t></w:r></w:p>"}
+function cell(txt,w,hd){return'<w:tc><w:tcPr><w:tcW w:w="'+w+'" w:type="dxa"/>'+(hd?'<w:shd w:val="clear" w:color="auto" w:fill="DCE8F7"/>':"")+"</w:tcPr>"+String(txt).split("\n").map(function(l){return p(l,{b:hd,sz:17})}).join("")+"</w:tc>"}
+function lcell(u,w,n){return'<w:tc><w:tcPr><w:tcW w:w="'+w+'" w:type="dxa"/></w:tcPr><w:p><w:hyperlink r:id="rId'+n+'"><w:r><w:rPr><w:color w:val="0B6BCB"/><w:u w:val="single"/><w:sz w:val="15"/></w:rPr><w:t xml:space="preserve">'+x(u)+'</w:t></w:r></w:hyperlink></w:p></w:tc>'}
+$("docx").onclick=async function(){
+ try{
+  var d=$("fecha").value,W=[1200,1900,1400,1200,5300,3000],links=[],R=[["Medio","Ciudad / zona","Tema","Tipo","Detalle","Fuente (enlace)"]].concat(rows());
+  var tbl='<w:tbl><w:tblPr><w:tblW w:w="14000" w:type="dxa"/><w:tblBorders>'+["top","left","bottom","right","insideH","insideV"].map(function(b){return'<w:'+b+' w:val="single" w:sz="4" w:color="9AA7B5"/>'}).join("")+"</w:tblBorders></w:tblPr><w:tblGrid>"+W.map(function(w){return'<w:gridCol w:w="'+w+'"/>'}).join("")+"</w:tblGrid>"+
+   R.map(function(r,i){return"<w:tr>"+r.map(function(c,j){if(i>0&&j===5){if(!c)return cell("",W[j]);links.push(c);return lcell(c,W[j],links.length+10)}return cell(c,W[j],i===0)}).join("")+"</w:tr>"}).join("")+"</w:tbl>";
+  var body=p("Reporte diario de noticias INAMHI",{b:1,sz:32})+p("Fecha: "+fmt(d),{sz:20})+p(summary(),{sz:18})+tbl+'<w:sectPr><w:pgSz w:w="16838" w:h="11906" w:orient="landscape"/><w:pgMar w:top="900" w:right="900" w:bottom="900" w:left="900"/></w:sectPr>';
+  var z=new window.JSZip();
+  z.file("[Content_Types].xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>');
+  z.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>');
+  z.file("word/_rels/document.xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+links.map(function(u,k){return'<Relationship Id="rId'+(k+11)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="'+x(u).replace(/"/g,"&quot;")+'" TargetMode="External"/>'}).join("")+"</Relationships>");
+  z.file("word/document.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><w:body>'+body+"</w:body></w:document>");
+  var blob=await z.generateAsync({type:"blob",mimeType:"application/vnd.openxmlformats-officedocument.wordprocessingml.document"});
+  save("reporte-inamhi-"+d+".docx",blob);
+ }catch(e){$("msg").textContent="No se pudo generar el Word."}
+};
+$("csv").onclick=function(){
+ var q=function(v){return'"'+String(v==null?"":v).replace(/"/g,'""')+'"'},d=$("fecha").value;
+ var c="\ufeff"+["Fecha,Medio,Ciudad,Tema,Tipo,Detalle,Enlace,Captura"].concat(items().map(function(i){return[d,i.m,i.c,i.t,i.k,i.d,i.u,i.s?new URL(i.s,location.href).href:""].map(q).join(",")})).join("\r\n");
+ save("reporte-inamhi-"+d+".csv",new Blob([c],{type:"text/csv;charset=utf-8"}));
+};
+render();
+</script>
+</body>
+</html>
