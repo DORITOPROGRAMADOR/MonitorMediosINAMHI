@@ -1585,6 +1585,14 @@
    "k": "Advertencia",
    "d": "Inamhi emite nueva advertencia meteorológica por lluvias hasta el próximo martes",
    "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSHF0RndoVGpubXY2dllrcTl3M0k2LV95TkhtSlZwaXExWjZPUmwwdjlZd0c5NEtWR3hOcEFlMHhXb2R4TXhZRlhmQVJtZmRFZ1RkOVVwRzdTYUxMTEZDd2JwV1VvcTA3c28zem9GbUNZRlZPOGVPR0Zkcm9kR0pWckJWX3lqa3RfRUtfUlF2Y1I4RUhHdWFtQVU1OENUMlpabEE?oc=5"
+  },
+  {
+   "m": "Prensa Mercosur",
+   "c": "Nacional",
+   "t": "Otro",
+   "k": "Pronóstico",
+   "d": "Este es el pronóstico del tiempo en Ecuador hasta el 24 de noviembre, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdzdzcWpqbGNKVVlXaEM0Wm0ycF9Ramtwb0VBVHVtOWpZd0tJVjVuT2piazBTZW1tVjYyMkc5eDF5VVEwVU45WHVtcHM2WXBaMUd5ZHlJc3JPdGVLSXJpUURLT0hKSHNrdVRuMW9UR2N2VVJ3ekVZWU44OXhvTFVXT3VSTDd4Q05JaVFKRjl2NXVUOFRaZ3lTLUtsX3JBaDJxeHRBdDlMWVlqaW56WWVUcGI3MjhEc2ZGcXZ2RjZlLUQ?oc=5"
   }
  ],
  "2026-11-23": [
@@ -1635,6 +1643,30 @@
    "k": "Advertencia",
    "d": "Quito amanece con lluvias este lunes 23 de noviembre: esto advierte el Inamhi en varias provincias",
    "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNamtjUVRkYlowRUg5WnBVSUNpQU93aThBRjZOa08yRFNoUGJpY056cXljLV96b2FhZ2ZZU2FZZTBodm8xYnJXemhyQjhlR1VMbG9ONHNVbUM5RURsVDlXUk1kTHRTSGlNazJ1T3FPSzlYRGpIWXhnaGN5STlTUFpPMFVIeV9hTG80bHlJMThacU5DblMwWXNJRzhCMTN2bHFEU1JjQ1lZSmJPSGY5bURPV3JQYWE2WFRNSmpmNlRvTVZGWU9FTlE3cDdQSmhkdDNmempTVDE4SVRyeTdKZnNmQ2M0eG8?oc=5"
+  },
+  {
+   "m": "El Diario Ecuador",
+   "c": "Nacional",
+   "t": "Lluvias",
+   "k": "Aviso corto plazo",
+   "d": "Estas provincias tendrán lluvias intensas durante la noche de hoy, y madrugada del 24 de noviembre, según el Inamhi",
+   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObVY5TWp1akpQOXo4cmhpQ1NROHQ2eVJkTzZKYUtoTE4yd2pTNEdwUnVhblNKLWM5Q2YyeDdWR3VKanhjWkowZ3loM0R6dHJVR0liWFNVVnJVRzRJVTg0M3NhQ2JBelA2clcwSURFb1hHd0IxVWVUM0laTDlPazRHWkFTc29kREFHeWotWHN4WFFSTlo4S0xiZW9vMGF4WGhMbHNqdjhGS3d4N1gxLWFqSTR6dXc0Q1lwMVlvZ0FPa09WZkwzd04tVnFnRS0zc2FaQmlJVmUyeE5Jb3VTdFNyTjZRRkhTR3NLWFRv?oc=5"
+  },
+  {
+   "m": "Teleamazonas",
+   "c": "Costa, Sierra",
+   "t": "Tormentas eléctricas",
+   "k": "Pronóstico",
+   "d": "Noche lluviosa y con tormentas eléctricas prevé el Inamhi en la Costa y Sierra este 23 de noviembre",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSHNheC1XeFQyUzNaWEpkMHUydko1VXE5NjJNR1FPT3ZjN2RsQ3BqWnRGRmpCYTlaVGRmd0h5QnBCVEpMNVp5MF9CeG0tbTFIdjdHTjJqeW5VVi1lakdUbDhuZjREeFc1RHhGN1pCdlhXU21NZVlxVVRCVHpXVDhUYUtUY3dZQzRMaUlYRl9uRGlKVFlXY3NCRU0yTk16cGdfNlR2ODZlYmF1S1dOWHRFWnJrYw?oc=5"
+  },
+  {
+   "m": "Ecuavisa",
+   "c": "Quito",
+   "t": "Lluvias",
+   "k": "Pronóstico",
+   "d": "Clima en Quito este lunes 23 de noviembre: el Inamhi prevé lluvias fuertes al final de la tarde",
+   "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wcy1ENHdDaG8tSktlaWdLMFRZSlJOT0hBSjdKNHRUTXlRdnRhenZFWEdkU3FuUFo1WHhBRURjd0l0b01jaW9HU2FQZ2VNVURhOWNDd3ZTR1RPOXpWMlNWRXN3NXIxdlpXYlI2bzRmXzFwcktyTk5DZ1F30gF_QVVfeXFMUGg5c0NtaDFFbjItTzRCRTA0NDIwNi1kQXV2ZmlCS0V2bHVwaXVUV1BaUEJ0MFhINHE1bDNoSTNiNU00eVFORnR6TVFmS1hYTG9Bb2xrcDcwNG8wVkxYSldwcG1OTVphLThQbUtiT2dEbDlPcFlEdlRJSEQ4eG1NQQ?oc=5"
   }
  ]
 }
